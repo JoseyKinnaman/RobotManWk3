@@ -53,4 +53,6 @@ button {
 
 input {
   border-radius: 8px;
+  text-align: center;
+  width: 10%;
 }

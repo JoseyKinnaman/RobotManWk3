@@ -2,6 +2,7 @@
 function robotSpeak(userInput) {
   var numOutput = [];
 
+
   for (var i = 0; i <= userInput; i++) {
     if (i.toString().includes("3")) {
       console.log(i);
@@ -26,5 +27,6 @@ $(document).ready(function () {
     
     $("#result").text(output);
     $("#result").show();
+    $("result").play("audio#neighbor")
   });
 });
