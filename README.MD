@@ -46,7 +46,7 @@
 
 ## Known Bugs
 
-No known bugs.
+Audio currently not working. 
 
 #### Please contact J. Kinnaman at jozypants@gmail.com for questions.
 
