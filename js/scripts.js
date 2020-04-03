@@ -23,10 +23,11 @@ $(document).ready(function () {
     event.preventDefault();
     var userInput = parseInt($("input#userInput").val());
     var output = robotSpeak(userInput);
-    var myMusic = document.getElementById("audio#neighbor");
+    // var sound = new Audio("neighbor.mp3");
     
     $("#result").text(output);
     $("#result").show();
-    $("result").play(myMusic);
+    // sound.play();
+    
   });
 });
