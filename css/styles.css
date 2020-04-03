@@ -10,13 +10,15 @@ body {
   margin-bottom: 25px;
   padding: 50px;
   border: dashed black;
+  background-repeat: repeat;
 }
 
 .card {
   background-color: royalblue;
   text-align: center;
-  font-family: monospace;
-  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  color: gold;
    margin-top: 25px;
   margin-left: 25px;
   margin-right: 25px;
@@ -33,4 +35,9 @@ img {
   border-radius: 8px;
   margin-top: 20px;
   margin-bottom: 20px;
+  transform: scaleX(-1);
+}
+
+button {
+  margin-top: 10px;
 }
