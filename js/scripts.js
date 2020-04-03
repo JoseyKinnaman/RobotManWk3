@@ -1,10 +1,19 @@
 // Business Logic
 function robotSpeak(userInput) {
-  var output = [];
+  var numOutput = [];
 
   for (var i = 0; i <= userInput; i++) {
-
+    if (i.toString().includes("3")) {
+      numOutput.push("Won't you be my neighbor?");
+    } else if (i.toString().includes("2")) {
+      numOutput.push("Boop!");
+    } else if (i.toString().includes("1")) {
+      numOutput.push("Beep!");
+    } else {
+      numOutput.push(" " + i);
+    }
   }
+  return numOutput;
 }
 
 // User interface logic
@@ -12,5 +21,9 @@ $(document).ready(function () {
   $("form#formOne").submit(function (event) {
     event.preventDefault();
     var userInput = parseInt($("input#userInput").val());
-  })
-})
+    var output = robotSpeak(userInput);
+    
+    $("#result").text(output);
+    $("#result").show();
+  });
+});
