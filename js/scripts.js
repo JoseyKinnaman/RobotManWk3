@@ -2,7 +2,6 @@
 function robotSpeak(userInput) {
   var numOutput = [];
 
-
   for (var i = 0; i <= userInput; i++) {
     if (i.toString().includes("3")) {
       console.log(i);
@@ -24,9 +23,10 @@ $(document).ready(function () {
     event.preventDefault();
     var userInput = parseInt($("input#userInput").val());
     var output = robotSpeak(userInput);
+    var myMusic = document.getElementById("audio#neighbor");
     
     $("#result").text(output);
     $("#result").show();
-    $("result").play("audio#neighbor")
+    $("result").play(myMusic);
   });
 });
