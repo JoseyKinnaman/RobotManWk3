@@ -1,0 +1,36 @@
+body {
+  background-color: firebrick;
+}
+
+.box {
+  background-image: url(https://cdn.dribbble.com/users/187880/screenshots/9718893/shot-cropped-1579804862937.png);
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  padding: 50px;
+  border: dashed black;
+}
+
+.card {
+  background-color: royalblue;
+  text-align: center;
+  font-family: monospace;
+  color: white;
+   margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  padding: 25px;
+  border: dashed black;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
