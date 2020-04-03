@@ -8,9 +8,11 @@
 
 ## Setup/Installation
 
-- Clone or download from MrRobogersNeighborhood GitHub repository.
+- Clone or download from https://github.com/Jozypants/RobotManWk3.git GitHub repository.
 - Open index.html in web browser.
 - Input a number.
+
+https://jozypants.github.io/RobotManWk3/
 
 
 ## Specs
