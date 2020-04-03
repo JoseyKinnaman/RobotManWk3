@@ -56,3 +56,8 @@ input {
   text-align: center;
   width: 10%;
 }
+
+footer {
+  text-align: center;
+  font-family: monospace
+}
