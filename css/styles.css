@@ -35,9 +35,16 @@ img {
   border-radius: 8px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+img:hover {
   transform: scaleX(-1);
 }
 
 button {
   margin-top: 10px;
+}
+
+#result {
+  display: none;
 }
