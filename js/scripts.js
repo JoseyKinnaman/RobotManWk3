@@ -23,11 +23,13 @@ $(document).ready(function () {
     event.preventDefault();
     var userInput = parseInt($("input#userInput").val());
     var output = robotSpeak(userInput);
-    // var sound = new Audio("neighbor.mp3");
+    var sound = new Audio(
+      "https://freesound.org/data/previews/392/392694_5694371-lq.mp3"
+    );
     
     $("#result").text(output);
     $("#result").show();
-    // sound.play();
+    sound.play();
     
   });
 });
