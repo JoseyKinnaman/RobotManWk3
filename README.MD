@@ -12,8 +12,7 @@
 - Open index.html in web browser.
 - Input a number.
 
-https://jozypants.github.io/RobotManWk3/
-
+https://joseykinnaman.github.io/RobotManWk3/
 
 ## Specs
 
